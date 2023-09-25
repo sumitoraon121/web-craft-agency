@@ -1,0 +1,108 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0px 50px;
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+  }
+  .main {
+    flex: 1;
+  }
+
+.sanju{
+    background-color: #7e22ce;
+    text-align: center;
+    padding: 10px;
+    box-shadow:gray;
+}
+ .head{color: #ffffff;
+    font-family: 'Bitter', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Playfair Display', serif;}
+
+.inn{display: inline-block;
+     margin-right: 10px;
+    color: #ffffff;
+   border: 3px solid #111827;
+     padding: 4px;}
+
+.logo{
+    width: 200px;
+    margin-top: 30px;
+    margin-left:640px;
+    margin-right: 640px;
+}
+
+h3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 2rem;}
+
+.beauty{height: 200px;
+           float:left;
+            margin-right: 50px;
+        margin-left: 10px;}
+
+.construction{height: 200px;
+              float: left;
+               margin-right: 50px;}
+
+
+.left{width: 45%;
+     float: left;
+    margin-top: 60px;}
+
+.right{width: 45%;
+     float:right;
+    margin-top: 60px;}
+
+.webcraft{color: crimson;}
+
+.limit{color: darkblue;}
+
+.foot{font-family: font-family: 'Bitter', serif;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Playfair Display', serif;
+        float:both;
+        text-align:center;
+        margin: top 20px;
+    }
+
+    
+
+    @media(min-width:200px) and (max-width:480px)  {
+        .logo{width: 100px;
+        height: 70px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    body{background-color: beige;}
+    
+    h1{font-size: 1.5rem;}
+   
+    .inn{display: inline;
+         margin-right: 2px;
+        width: 90%;
+    margin-bottom: 5px;
+     text-align: center;}
+   
+     .beauty{width: 200px;
+              height: 200px;
+            margin-bottom: 20px;}
+
+    .construction{width: 200px;
+                  height: 200px;
+                margin-bottom: 20px;}
+
+    .left{width: 110%;
+          float: inherit;
+        }
+    .right{width: 110%;
+    float: inherit;}
+
+    p{font-size: 1rem;}
+
+    .last{margin-top: 50px;}
+
+     }
